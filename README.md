@@ -10,7 +10,7 @@ Parameters:
   octet_position example values: 1:    It will do only matching changes in the first octet
                                  2-3:  It will do only matching changes in the rang of octets 2-3
 
-Configuration: The script needs a configuration file, this file is a list of filenames and/or directories, the script will do any changes in the files defined and also will do changes in ANY text file found inside the first level of the given directory
+Configuration: The script needs a configuration file in the same directory as the script (config.csv), this file is a list of filenames and/or directories, the script will do any changes in the files defined and also will do changes in ANY text file found inside the first level of the given directory
 
 Backup: This script will generate backup files of each file that does a change, the backed up file will be in the same directory
 with the .bck extension added
